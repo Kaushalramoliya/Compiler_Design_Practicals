@@ -169,5 +169,4 @@ By completing this lab, students will:
 > 🏫 Navrachana University, Vadodara  
 > 📧 Email: [kaushalramoliya17@gmail.com](mailto:kaushalramoliya17@gmail.com)  
 > 🌐 LinkedIn: [linkedin.com/in/kaushalramoliya](https://www.linkedin.com/in/kaushalramoliya)  
-> 💻 GitHub: [github.com/kaushalramoliya](https://github.com/Kaushalramoliya)
-> Happy Coding! 🚀  
+> 💻 GitHub: [github.com/kaushalramoliya](https://github.com/Kaushalramoliya) 
