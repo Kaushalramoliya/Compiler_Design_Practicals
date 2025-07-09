@@ -1,9 +1,33 @@
 # 📚 Compiler Design Laboratory Practicals
 
-**Course Code:** CSE606 | **Semester:** 6  
-**Author:** Ramoliya Kaushal (22000409)  
-**Department:** CSE, Navrachana University, Vadodara  
-**Spring 2025**
+**Author:** Ramoliya Kaushal  
+
+---
+
+## 🧠 What is Compiler Design?
+
+Compiler Design focuses on creating software that transforms source code written in one programming language into another. It involves various stages such as lexical analysis, parsing, semantic analysis, code optimization, and code generation.
+
+---
+
+## 🔧 Technologies Used
+
+| Technology     | Purpose                                      |
+|----------------|----------------------------------------------|
+| C Language     | Writing core programs and logic              |
+| LEX / Flex     | Token generation and lexical analysis        |
+| YACC / Bison   | Syntax analysis using grammar rules          |
+| GCC Compiler   | Compiling generated C source code            |
+
+---
+
+## 🖥️ Software Requirements
+
+- GCC (GNU Compiler Collection)  
+- Flex (Fast Lexical Analyzer Generator)  
+- Bison/YACC (Yet Another Compiler Compiler)  
+- Windows with WSL or MinGW  
+- Code editor (e.g., VS Code)
 
 ---
 
@@ -32,7 +56,8 @@
 
 ## Lab 1: Finite Automata in C
 
-**Aim:** Implement various finite‑automata based recognizers for patterns such as “starts with a”, “ends with a”, “ends with ab”, and “contains ab” over the alphabet {a, b}.  
+**Aim:**  
+Implement various finite‑automata based recognizers for patterns such as “starts with a”, “ends with a”, “ends with ab”, and “contains ab” over the alphabet {a, b}.  
 
 **Files:**  
 - `Lab-1/a_startwitha.c`  
@@ -44,7 +69,8 @@
 
 ## Lab 2: Hand‑Written Lexical Analyzer in C
 
-**Aim:** Build a custom lexical analyzer in C to identify tokens including identifiers, keywords, operators, numbers, and comments without using LEX/Flex.  
+**Aim:**  
+Build a custom lexical analyzer in C to identify tokens including identifiers, keywords, operators, numbers, and comments without using LEX/Flex.  
 
 **Files:**  
 - `Lab-2/identifier.c`  
@@ -57,17 +83,19 @@
 
 ## Lab 3: LEX & Flex Overview
 
-**Aim:** Study the structure of a Flex specification file (`.l`), including declarations, rules, and actions; observe common token‑matching patterns.  
+**Aim:**  
+Study the structure of a Flex specification file (`.l`), including declarations, rules, and actions; observe common token‑matching patterns.  
 
 **Contents:**  
 - Theory notes  
-- Example `.l` files in `Lab-3/` directory
+- Example `.l` files in `Lab-3/` directory  
 
 ---
 
 ## Lab 4: Lex Programs
 
-**Aim:** Write Flex programs for text processing tasks such as counting words, vowels vs consonants, extracting numbers, adding line numbers, and parsing HTML tags/comments.  
+**Aim:**  
+Write Flex programs for text processing tasks such as counting words, vowels vs consonants, extracting numbers, adding line numbers, and parsing HTML tags/comments.  
 
 **Files:**  
 - `Lab-4/count_words.l`  
@@ -80,7 +108,8 @@
 
 ## Lab 5: Advanced Lexical Analysis
 
-**Aim:** Extend lexical analysis to handle removal of comments, advanced tokenization of multi‑character operators, literals, and error reporting.  
+**Aim:**  
+Extend lexical analysis to handle removal of comments, advanced tokenization of multi‑character operators, literals, and error reporting.  
 
 **Files:**  
 - `Lab-5/remove_comments.l`  
@@ -90,7 +119,8 @@
 
 ## Lab 6: Recursive Descent Parser
 
-**Aim:** Implement a hand‑coded recursive‑descent parser in C for a simple expression grammar, demonstrating parsing functions corresponding to grammar productions.  
+**Aim:**  
+Implement a hand‑coded recursive‑descent parser in C for a simple expression grammar, demonstrating parsing functions corresponding to grammar productions.  
 
 **File:**  
 - `Lab-6/recursive_descent.c`  
@@ -99,7 +129,8 @@
 
 ## Lab 7: YACC + LEX Exercises
 
-**Aim:** Combine Flex and YACC to build small compilers/parsers, including an arithmetic calculator, infix‑to‑postfix converter, and expression evaluator.  
+**Aim:**  
+Combine Flex and YACC to build small compilers/parsers, including an arithmetic calculator, infix‑to‑postfix converter, and expression evaluator.  
 
 **Files:**  
 - `Lab-7/lexer.l`  
@@ -116,5 +147,27 @@
 > gcc lex.yy.c y.tab.c -lfl -o <output_executable>
 > ./<output_executable> <input_file>
 > ```  
->  
+
+---
+
+## 🎯 Learning Outcomes
+
+By completing this lab, students will:
+
+- ✅ Understand the working of compilers, from **lexical analysis** to **parsing**
+- ✅ Develop **custom compilers** for evaluating basic arithmetic and language expressions
+- ✅ Use **LEX and YACC** tools to automate token generation and grammar parsing
+- ✅ Analyze **context-free grammars (CFGs)** and write parsers both manually and using tools
+- ✅ Work confidently with **Linux-based command-line tools**, compilers, and debugging utilities
+
+---
+
+## 🙋 About Me
+
+> 👨‍💻 **Kaushal Ramoliya**  
+> 🎓 B.Tech in Computer Science & Engineering  
+> 🏫 Navrachana University, Vadodara  
+> 📧 Email: [kaushalramoliya17@gmail.com](mailto:kaushalramoliya17@gmail.com)  
+> 🌐 LinkedIn: [linkedin.com/in/kaushalramoliya](www.linkedin.com/in/kaushalramoliya)  
+> 💻 GitHub: [github.com/kaushalramoliya](https://github.com/Kaushalramoliya)
 > Happy Coding! 🚀  
